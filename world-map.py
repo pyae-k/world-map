@@ -1041,6 +1041,8 @@ def main() -> None:
         if st.button("Refresh live data", use_container_width=True):
             st.cache_data.clear()
             st.rerun()
+        st.divider()
+        st.caption("Developed by Pyae Phyo Kyaw • pyaek@icloud.com")
 
     filtered = country_options(query, selected_regions)
     if show_markets_only:
