@@ -1042,7 +1042,7 @@ def main() -> None:
             st.cache_data.clear()
             st.rerun()
         st.divider()
-        st.caption("Developed by Pyae Phyo Kyaw • pyaek@icloud.com")
+        st.caption("Built by Pyae Phyo Kyaw • pyaek@icloud.com")
 
     filtered = country_options(query, selected_regions)
     if show_markets_only:
